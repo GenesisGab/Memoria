@@ -10,6 +10,10 @@ let frutas2 = ["🍇", "🍈", "🍉", "🍊", "🍋", "🍌", "🍍", "🥭", "
 
 let todas_las_frutas = frutas.concat(frutas2);
 
+//FUNCION TARJETAS ALEATORIAS
+todas_las_frutas.sort(function(){
+    return 0.5 - Math.random()
+})
 
 //FUNCION AGREGAR AL DOM
 function agregar_datos_al_DOM(){
